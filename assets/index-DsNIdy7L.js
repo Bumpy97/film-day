@@ -5338,7 +5338,7 @@ function qu(e, t, n, r, s, o) {
                             onClick: t[0] || (t[0] = (...i) => o.fetchNewMovie && o.fetchNewMovie(...i))
                         }, 'Показать еще фильм')]),
                     be('div', Uu, [
-                        be('button', { onClick: t[1] || (t[1] = (...i) => o.shareWall && o.shareWall(...i)) }, 'Отправить на стену'),
+                        be('button', { onClick: t[1] || (t[1] = (...i) => o.shareWall && o.shareWall(...i)) }, 'Добавить в избранное'),
                         be('button', { onClick: t[2] || (t[2] = (...i) => o.shareMovie && o.shareMovie(...i)) }, 'Поделиться сервисом')
                     ])
                 ])
